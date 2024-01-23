@@ -40,3 +40,13 @@ function playRound(playerSelection,computerSelection){
     }
 
 }
+
+function game(){
+    
+    for (let k = 0;k<5;k++){
+       let user = prompt().toLowerCase();
+       console.log(playRound(user,getComputerChoice()))
+    }
+}
+
+game()
