@@ -1,4 +1,4 @@
 function getComputerChoice(){
-    let choices = ["Rock","Paper","Scissors"]
+    let choices = ["rock","paper","scissors"]
     return choices[Math.floor(Math.random()*2)]
 }
